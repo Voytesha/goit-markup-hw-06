@@ -593,7 +593,7 @@ img {
 
 /*Subscription*/
 .subscribe {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .footer-subscription {
   display: flex;
@@ -696,6 +696,10 @@ img {
   background: var(--primary-background-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.close-button:hover,
+.close-button:focus {
+background: var(--accent-color);
+}
 /*Form*/
 .form-element {
   display: flex;
@@ -771,6 +775,7 @@ textarea {
 }
 .accept {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -797,7 +802,6 @@ textarea {
 .checkbox {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-right: 8px;
   border: 2px solid var(--title-text-color);
   width: 16px;
